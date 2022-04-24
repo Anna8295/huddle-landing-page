@@ -33,23 +33,23 @@ html, body{
     font-size: 18px;
 }
 
-.header {
+header {
     background-image: url(../images/bg-hero-desktop.svg);
     background-color: hsl(193, 100%, 96%);
     padding: 25px;
 }
 
-header {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header-logo {
+.nav-logo {
     padding: 25px;
 }
 
-.header-button {
+.nav-button {
     border: none;
     border-radius: 25px;
     background-color: white;
@@ -60,7 +60,7 @@ header {
     transition: 0.3s;
 }
 
-.header-button:hover {
+.nav-button:hover {
     opacity: 0.8;
 }
 
@@ -249,7 +249,7 @@ a {
 }
 
 @media (max-width: 900px) {
-    .header {
+    header {
         background-image: url(../images/bg-hero-mobile.svg);
     }
 
